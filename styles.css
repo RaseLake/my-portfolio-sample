@@ -73,11 +73,17 @@ nav a {
 .header {
 
     background-color: #fff8f3;
-    background-image: url(./images/header_bg.png);
+    background-image: url('./images/header_bg.png');
+
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 750px;
 
+}
+.header{
+    background-image: url('./images/developer.png');
+    background-size: 90px;
+    background-position: top left;
 }
 
 .banner {
